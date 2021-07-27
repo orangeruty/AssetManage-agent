@@ -1,0 +1,8 @@
+该项目基于https://github.com/chroblert/SecurityBaselineCheck
+用于windows及linux安全基线检查
+里面的win2012_baseline_check.ps1用于Windows服务器的基线检查与主机漏洞扫描
+运行：将该脚本在管理员模式下的powershell中运行
+其余的文件为Centos系列服务器下扫描用的
+使用：
+为所有的.sh文件添加x权限：chmod +x *.sh
+以管理员权限运行linux_baseline_check.sh
